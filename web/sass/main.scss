@@ -1,0 +1,35 @@
+//PATTERN 7-1
+//outils et helpers
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+//bibliothèques et frameworks externes
+@import 'vendors/bootstrap.scss';
+
+//typographie et feuille de style standard
+@import 'base/reset';
+@import 'base/typography';
+
+//sections et mise en page du site
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/banner';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+//widgets et modules 
+@import 'components/buttons';
+@import 'components/cover';
+@import 'components/dropdown';
+
+//style spécifique à certaines pages
+@import 'pages/accueil';
+@import 'pages/commun';
+@import 'pages/contact';
+
+//les différents thèmes
+@import 'themes/config';
+@import 'themes/themes';

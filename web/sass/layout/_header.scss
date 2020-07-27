@@ -1,0 +1,61 @@
+/*
+ 
+ ##     ## ########    ###    ########  ######## ########  
+ ##     ## ##         ## ##   ##     ## ##       ##     ## 
+ ##     ## ##        ##   ##  ##     ## ##       ##     ## 
+ ######### ######   ##     ## ##     ## ######   ########  
+ ##     ## ##       ######### ##     ## ##       ##   ##   
+ ##     ## ##       ##     ## ##     ## ##       ##    ##  
+ ##     ## ######## ##     ## ########  ######## ##     ## 
+ 
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $navbar-background;
+}
+
+.navbar-brand{
+    color: $navbar-color;
+    padding-top: 20px;
+}
+
+/*
+ 
+ ##    ##    ###    ##     ## 
+ ###   ##   ## ##   ##     ## 
+ ####  ##  ##   ##  ##     ## 
+ ## ## ## ##     ## ##     ## 
+ ##  #### #########  ##   ##  
+ ##   ### ##     ##   ## ##   
+ ##    ## ##     ##    ###    
+ 
+*/
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: $navbar-color;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #000876;
+    border-bottom: 3px solid #000876;
+    text-decoration: none;
+}

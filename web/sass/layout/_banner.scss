@@ -1,0 +1,26 @@
+/*
+ 
+ ########     ###    ##    ## ##    ## #### ######## ########  ######## 
+ ##     ##   ## ##   ###   ## ###   ##  ##  ##       ##     ## ##       
+ ##     ##  ##   ##  ####  ## ####  ##  ##  ##       ##     ## ##       
+ ########  ##     ## ## ## ## ## ## ##  ##  ######   ########  ######   
+ ##     ## ######### ##  #### ##  ####  ##  ##       ##   ##   ##       
+ ##     ## ##     ## ##   ### ##   ###  ##  ##       ##    ##  ##       
+ ########  ##     ## ##    ## ##    ## #### ######## ##     ## ######## 
+ 
+*/
+
+#banniere{    
+    background: url('https://static.usbeketrica.com/images/thumb_840xh/5e90372e12ac5.jpg') no-repeat;
+    height: 700px;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+
+#banniere .btn{
+    position: absolute;
+    text-align: center;
+}
