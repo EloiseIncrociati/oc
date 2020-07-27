@@ -76,11 +76,15 @@ article, aside {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #1248a6;
+  background-color: #4575b4;
+}
+
+a:hover{
+  color: #91BFDB ;
 }
 
 .navbar-brand {
-  color: white;
+  color: #E0F3F8;
   padding-top: 20px;
 }
 
@@ -113,7 +117,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000876;
+  color: #91BFDB;
   border-bottom: 3px solid #000876;
   text-decoration: none;
 }
