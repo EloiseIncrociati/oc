@@ -1,23 +1,45 @@
 /*
 
-    ###     ######  #### ########  ########
-   ## ##   ##    ##  ##  ##     ## ##
-  ##   ##  ##        ##  ##     ## ##
- ##     ##  ######   ##  ##     ## ######
- #########       ##  ##  ##     ## ##
- ##     ## ##    ##  ##  ##     ## ##
- ##     ##  ######  #### ########  ########
+    ###     ######  #### ########  ######## 
+   ## ##   ##    ##  ##  ##     ## ##       
+  ##   ##  ##        ##  ##     ## ##       
+ ##     ##  ######   ##  ##     ## ######   
+ #########       ##  ##  ##     ## ##       
+ ##     ## ##    ##  ##  ##     ## ##       
+ ##     ##  ######  #### ########  ######## 
 
 */
-aside{
-  background-color: #e9ecef;
-  padding: 20px 50px;
-}
 
-aside div{
+
+aside{
+  background-color: #E4E3E3;
   padding: 20px 50px;
+  border-radius: 15px;
 }
 
 .corps {
   display: flex;
+}
+/*Recherche formulaire :*/
+form{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.btn-search{
+  background-color: #24A19C;
+  border-color: #1d8a86;
+}
+
+/*Programmes : */
+.programmation{
+  margin: 25px;
+  display: block;
+}
+
+/*Map :*/
+.localisation{
+  margin: 25px;
 }

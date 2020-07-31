@@ -31,8 +31,10 @@
 
 		<!-- Section 1 col-md-12 -->
 		<section id="banniere">
-			<div class="col-md-12">
+			<div class="col-md-12 banner_desc">
 				<h1 class="text-center text-white">Les Films de Plein Air</h1>
+				<br/>
+				<br/>
 				<button class="btn btn-primary">Voir la programmation</button>
 			</div>
 		</section> 
@@ -42,7 +44,7 @@
 			<section id="description">
 				<div class="row">
 					<div class="col-xs-12 corps">
-						<article class="col-md-8 col-xs-12 article">
+						<article class="col-md-8 col-xs-12 article" style="padding: 20px 50px;">
 							<h1>L'Association</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
 							<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
@@ -50,16 +52,36 @@
 						</article>
 						<!--Recherche / Programmation / Maps-->
 						<aside class="hidden-xs hidden-sm col-md-4 sidebar">
-							<div class="row rechercher widget"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p></div>
-							<div class="row programmation widget"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p></div>
-							<div class="row map widget"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p></div>
+							<div class="row rechercher widget">
+								<form action="search" method="get" class="form-inline">
+									<div class="input-group">
+									  <input type="text" name="search" class="form-control" placeholder="Je cherche...">
+									  <span class="input-group-btn">
+										<button type="submit" class="btn btn-secondary btn-search"><span class="fa fa-search"></span> Chercher</button>
+									  </span>
+									</div>
+								  </form>
+							</div>
+							<div class="row programmation widget">
+								<h3>Programmation :</h3>
+								<br>
+								<ul>
+									<li>Lien film 1</li>
+									<li>Lien film 2</li>
+									<li>Lien film 3</li>
+								</ul>
+							</div>
+							<div class="row localisation widget">
+								<h3>Où sommes-nous ?</h3>
+								<br>
+							</div>
 						</aside>
 					</div>
 				</div>
 			</section>
 
 			<!-- Section 3 Contenu mis en avant col-md-12-->
-			<section id="films">
+			<section id="films" class="col-md-12">
 				<h2>Les Films de la Semaine</h2>
 				<div class="row">
 					<article class="col-md-4 card">
@@ -94,6 +116,7 @@
 					</article>
 				</div>
 			</section>
+		</div>
 
 			<!-- Footer -->
 			<footer>

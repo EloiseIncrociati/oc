@@ -1,28 +1,35 @@
 /*
- 
+
  ##     ## ########    ###    ########  ######## ########  
  ##     ## ##         ## ##   ##     ## ##       ##     ## 
  ##     ## ##        ##   ##  ##     ## ##       ##     ## 
  ######### ######   ##     ## ##     ## ######   ########  
  ##     ## ##       ######### ##     ## ##       ##   ##   
  ##     ## ##       ##     ## ##     ## ##       ##    ##  
- ##     ## ######## ##     ## ########  ######## ##     ## 
- 
-*/
+ ##     ## ######## ##     ## ########  ######## ##     ##   @font-face{
+    font-family: Girassol-Regular;
+    src: url(Girassol-Regular.ttf);
+}
 
-header{
+*/
+header {
     display: flex;
     justify-content: space-between;
-    background-color: $navbar-background;
-}
-
-.navbar-brand{
-    color: $navbar-color;
+    background-color:#24A19C;
+    font-family: Girassol-Regular;
+  }
+  
+  a:hover{
+    color: #91BFDB ;
+  }
+  
+  .navbar-brand {
+    color: #E0F3F8;
     padding-top: 20px;
-}
+  }
 
 /*
- 
+
  ##    ##    ###    ##     ## 
  ###   ##   ## ##   ##     ## 
  ####  ##  ##   ##  ##     ## 
@@ -30,32 +37,28 @@ header{
  ##  #### #########  ##   ##  
  ##   ### ##     ##   ## ##   
  ##    ## ##     ##    ###    
- 
-*/
 
-nav ul
-{
+*/
+nav ul {
     list-style-type: none;
     display: flex;
     margin-top: 10px;
-}
-
-nav li
-{
+  }
+  
+  nav li {
     margin-right: 15px;
-}
-
-nav a
-{
-    font-size: 1.3em;
-    color: $navbar-color;
+  }
+  
+  nav a {
+    font-size: 1.5em;
+    color: white;
     padding-bottom: 3px;
     text-decoration: none;
-}
-
-nav a:hover
-{
-    color: #000876;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: #91BFDB;
     border-bottom: 3px solid #000876;
     text-decoration: none;
-}
+  }

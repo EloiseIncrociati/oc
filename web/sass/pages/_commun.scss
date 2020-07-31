@@ -1,5 +1,5 @@
 /*
- 
+
   ######   #######  ##     ## ##     ## ##     ## ##    ## 
  ##    ## ##     ## ###   ### ###   ### ##     ## ###   ## 
  ##       ##     ## #### #### #### #### ##     ## ####  ## 
@@ -7,13 +7,18 @@
  ##       ##     ## ##     ## ##     ## ##     ## ##  #### 
  ##    ## ##     ## ##     ## ##     ## ##     ## ##   ### 
   ######   #######  ##     ## ##     ##  #######  ##    ## 
- 
-*/
 
-body{
-    background-color: $navbar-color; /*#b78fa7 ou #faf4ba */
+*/
+@font-face {
+  font-family: Girassol-Regular;
+  src: url(Girassol-Regular.ttf);
 }
 
-.container{
-    max-width: 1500px;
+body {
+  background-color: white;
+  /*#b78fa7 ou #faf4ba */
+}
+
+.container {
+  max-width: 1500px;
 }
