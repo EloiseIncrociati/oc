@@ -9,8 +9,13 @@
  ##     ##  ######  #### ########  ########
 
 */
-article, aside {
-  padding: 20px;
+aside{
+  background-color: #e9ecef;
+  padding: 20px 50px;
+}
+
+aside div{
+  padding: 20px 50px;
 }
 
 .corps {

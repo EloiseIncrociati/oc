@@ -31,7 +31,6 @@ body {
 
 */
 section {
-  background-color: #e9ecef;
   padding-bottom: 20px;
 }
 
@@ -54,8 +53,15 @@ section {
  ##     ##  ######  #### ########  ######## 
 
 */
-article, aside {
-  padding: 20px;
+article{
+  background-color: #e9ecef;
+  margin-right: 80px;
+  padding: 20px 50px;
+}
+
+aside{
+  background-color: #e9ecef;
+  padding: 20px 50px;
 }
 
 .corps {
