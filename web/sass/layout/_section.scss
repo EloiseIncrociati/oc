@@ -9,14 +9,24 @@
  ########  ########  ######   ######  ##     ## #### ##           ##    #### ##       
 
 */
-  
-  #films {
-    background-color: white;
-    width: max-content;
-    height: max-content;
-  }
-  
-  #description {
-    padding: 15px;
-  }
-  
+    
+#description {
+  padding: 15px;
+}
+
+#films {
+  background-color: white;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#films row{
+  height: 100%;
+}
+
+#films h2{
+  margin-bottom: 25px;
+}

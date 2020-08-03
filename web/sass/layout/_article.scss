@@ -1,5 +1,22 @@
-  article{
+  #description article{
     background-color: #E4E3E3;
     margin-right: 80px;
     border-radius: 15px;
+  }
+
+  #films article{
+    display: flex;
+    justify-content: space-around;
+  }  
+  
+  .card-inline{
+    justify-content: space-around;
+  }
+
+  #films article{
+    margin-left: 150px;
+  }
+
+  .card-footer{
+    text-align: center;
   }
