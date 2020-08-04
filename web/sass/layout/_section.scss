@@ -10,12 +10,23 @@
 
 */
     
+section{
+  font-family: $secondary-police;
+}
+
+h1, h2, h3{
+  font-family: $primary-police;
+}
+
+.association {
+  padding: 20px 50px;
+}
+
 #description {
   padding: 15px;
 }
 
 #films {
-  background-color: white;
   width: max-content;
   height: max-content;
   display: flex;
@@ -29,4 +40,5 @@
 
 #films h2{
   margin-bottom: 25px;
+  color: $text-cream;
 }

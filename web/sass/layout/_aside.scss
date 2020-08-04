@@ -12,9 +12,10 @@
 
 
 aside{
-  background-color: #E4E3E3;
+  background-color: $background-lighter;
   padding: 20px 50px;
   border-radius: 15px;
+  color: $text-cream;
 }
 
 .corps {

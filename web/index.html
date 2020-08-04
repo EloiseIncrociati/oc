@@ -1,156 +1,172 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Les Films de Plein Air</title>
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
-		<link rel="stylesheet" href="css/main.css"/> <!--Feuille Css-->
+<head>
+	<meta charset="utf-8">
+	<title>Les Films de Plein Air</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
+	<link rel="stylesheet" href="css/main.css"/> <!--Feuille Css-->
+	
+</head>
+<body>
+	
+	<!-- Header col-md-12 -->
+	<header class="col-md-12">
+		<a class="navbar-brand" href="index.html">Les Films de Plein Air</a>
+		<nav class="navbar navbar-fixed-top navigation navbar-expand-lg">
+			<!--Bouton collapse, menu en dropdown lorsque écran réduit-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive"> <!--Menu-->
+				<ul>
+					<li class="nav-item"><a href="#">Accueil</a></li>
+					<li class="nav-item"><a href="association.html">L'Association</a></li>
+					<li class="nav-item"><a href="inscription.html">Pré-inscription</a></li>
+					<li class="nav-item"><a href="programmation.html">Programmation</a></li>
+					<li class="nav-item"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Section 1 col-md-12 -->
+	<section id="banniere" class="banniere">
+		<div class="col-md-12 banner_desc">
+			<h1 class="text-center text-white">Les Films de Plein Air</h1>
+			<button class="btn btn-primary">Voir la programmation</button>
+		</div>
+	</section> 
+	
+	<div class="container">
+		<!-- Section 2 Description col-md-12-->
+		<section id="description">
+			<div class="row">
+				<div class="col-xs-12 corps">
+					<article class="col-md-8 col-xs-12 article .association">
+						<h1>L'Association</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+						<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+						<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+					</article>
+					<!--Recherche / Programmation / Maps-->
+					<aside class="hidden-xs hidden-sm col-md-4 sidebar">
+						<div class="row rechercher widget">
+							<form action="search" method="get" class="form-inline">
+								<div class="input-group">
+									<input type="text" name="search" class="form-control" placeholder="Je cherche...">
+									<span class="input-group-btn">
+										<button type="submit" class="btn btn-secondary btn-search"><span class="fa fa-search"></span> Chercher</button>
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="row programmation widget">
+							<h3>Programmation :</h3>
+							<ul>
+								<li>Lien film 1</li>
+								<li>Lien film 2</li>
+								<li>Lien film 3</li>
+							</ul>
+						</div>
+						<div class="row localisation widget">
+							<h3>Où sommes-nous ?</h3>
+							<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531419943!2d2.3067609514926963!3d48.87968700705893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1596441278926!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+						</div>
+					</aside>
+				</div>
+			</div>
+		</section>
 		
-	</head>
-	<body>
-
-		<!-- Header col-md-12 -->
-		<header class="col-md-12">
-			<a class="navbar-brand" href="index.html"><img/>Les Films de Plein Air</a>
-			<nav class="navbar navbar-fixed-top navigation navbar-expand-lg">
-				<!--Bouton collapse, menu en dropdown lorsque écran réduit-->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive"> <!--Menu-->
-					<ul>
-						<li class="nav-item"><a href="#">Accueil</a></li>
-						<li class="nav-item"><a href="association.html">L'Association</a></li>
-						<li class="nav-item"><a href="inscription.html">Pré-inscription</a></li>
-						<li class="nav-item"><a href="programmation.html">Programmation</a></li>
-						<li class="nav-item"><a href="contact.html">Contact</a></li>
+		
+		<!-- Section 3 Contenu mis en avant col-md-12-->
+		<section id="films" class="col-md-12">
+			<h2>Les Films de la Semaine</h2>
+			<br>
+		</div>
+		<div class="row card-inline">
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJ6eMiGWun62Dz5fW-v0b7r8EO2Pj9Qm7asYfGV5NBanmazo2b" alt="film 1">
+				<div class="card-body">
+					<h4 class="card-title">La Famille Adams</h4>
+					<ul class="card-text">
+						<li>Film de Conrad Vernon, Greg Tiernan.</li>
+						<li>Genre : Film d'Animation.</li>
+						<li>Durée du film : 1h 27min.</li>
+						<li>Date de sortie : 04 Décembre 2019.</li>
+						<li>Heure de la séance : 18 h 00.</li>
 					</ul>
 				</div>
-			</nav>
-		</header>
-
-		<!-- Section 1 col-md-12 -->
-		<section id="banniere">
-			<div class="col-md-12 banner_desc">
-				<h1 class="text-center text-white">Les Films de Plein Air</h1>
-				<br/>
-				<br/>
-				<button class="btn btn-primary">Voir la programmation</button>
-			</div>
-		</section> 
-
-		<div class="container">
-			<!-- Section 2 Description col-md-12-->
-			<section id="description">
-				<div class="row">
-					<div class="col-xs-12 corps">
-						<article class="col-md-8 col-xs-12 article" style="padding: 20px 50px;">
-							<h1>L'Association</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
-							<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
-							<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
-						</article>
-						<!--Recherche / Programmation / Maps-->
-						<aside class="hidden-xs hidden-sm col-md-4 sidebar">
-							<div class="row rechercher widget">
-								<form action="search" method="get" class="form-inline">
-									<div class="input-group">
-									  <input type="text" name="search" class="form-control" placeholder="Je cherche...">
-									  <span class="input-group-btn">
-										<button type="submit" class="btn btn-secondary btn-search"><span class="fa fa-search"></span> Chercher</button>
-									  </span>
-									</div>
-								  </form>
-							</div>
-							<div class="row programmation widget">
-								<h3>Programmation :</h3>
-								<br>
-								<ul>
-									<li>Lien film 1</li>
-									<li>Lien film 2</li>
-									<li>Lien film 3</li>
-								</ul>
-							</div>
-							<div class="row localisation widget">
-								<h3>Où sommes-nous ?</h3>
-								<br>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531419943!2d2.3067609514926963!3d48.87968700705893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1596441278926!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
-							</div>
-						</aside>
-					</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
 				</div>
-			</section>
-
-
-			<!-- Section 3 Contenu mis en avant col-md-12-->
-			<section id="films" class="col-md-12">
-				<h2>Les Films de la Semaine</h2>
-				<br>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/91wc7yc2R8L._AC_SL1500_.jpg" alt="film2">
+				<div class="card-body">
+					<h4 class="card-title">John Wick 3</h4>
+					<ul class="card-text">
+						<li>Film de :  Chad Stahelski.</li>
+						<li>Genre : Action.</li>
+						<li>Durée du film : 2h12.</li>
+						<li>Date de sortie : 22 Mai 2019.</li> 
+						<li>Heure de la séance : 20 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>					
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="https://fr.web.img5.acsta.net/pictures/18/09/19/14/32/4251359.jpg" alt="film3">
+				<div class="card-body">
+					<h4 class="card-title">Halloween</h4>
+					<ul class="card-text">
+						<li>Film de : David Gordon Green.</li>
+						<li>Genre : Epouvante-horreur, Thriller.</li>
+						<li>Durée du film : 1h49.</li>
+						<li>Date de sortie : 19 Octobre 2018.</li>
+						<li>Heure de la séance : 22 h 30. </li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
 		</div>
-			<div class="row card-inline">
-				<article class="col-md-3 card">
-					<img class="card-img-top" style="padding-top: 10px; height: 580px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJ6eMiGWun62Dz5fW-v0b7r8EO2Pj9Qm7asYfGV5NBanmazo2b" alt="film 1">
-					<div class="card-body">
-						<h4 class="card-title">La Famille Adams</h4>
-						<p class="card-text">Film de  Conrad Vernon, Greg Tiernan. <br> Genre : Film d'Animation. <br> Durée du film : 1h 27min. <br> Date de sortie : 04 Décembre 2019.<br>Heure de la séance : 18 h 00.</p>
+	</section>
+	
+	
+	
+	<!-- Footer -->
+	<footer>
+		<!--Formulaire de contact-->
+		<div class="wrapper">
+			<div class="inner">
+				<img src="images/film.png" alt="" class="image-1">
+				<form action="">
+					<h3>Contactez nous</h3>
+					<div class="form-holder">
+						<span class="lnr lnr-user"></span>
+						<input type="text" class="form-control" placeholder="Nom Prénom">
 					</div>
-					<div class="card-footer">
-						<a href="" class="btn btn-primary">Voir la fiche</a>
+					<div class="form-holder">
+						<span class="lnr lnr-envelope"></span>
+						<input type="text" class="form-control" placeholder="Email">
 					</div>
-				</article>
-				<article class="col-md-3 card">
-					<img class="card-img-top" style="padding-top: 10px; height: 580px;" src="https://images-na.ssl-images-amazon.com/images/I/91wc7yc2R8L._AC_SL1500_.jpg" alt="film2">
-					<div class="card-body">
-						<h4 class="card-title">John Wick 3</h4>
-						<p class="card-text">Film de :  Chad Stahelski.<br> Genre : Action.<br> Durée du film : 2h12. <br> Date de sortie : 22 Mai 2019. <br>Heure de la séance : 20 h 00.<br></p>
+					<div class="form-holder">
+						<span class="lnr lnr-phone-handset"></span>
+						<input type="text" class="form-control" placeholder="Votre message ici">
 					</div>
-					<div class="card-footer">
-						<a href="" class="btn btn-primary">Voir la fiche</a>
+					<div class="button">
+						<button type="submit">Envoyer le message</button>
 					</div>
-				</article>					<article class="col-md-3 card">
-					<img class="card-img-top" style="padding-top: 10px; height: 580px;" src="https://fr.web.img5.acsta.net/pictures/18/09/19/14/32/4251359.jpg" alt="film3">
-					<div class="card-body">
-						<h4 class="card-title">Halloween</h4>
-						<p class="card-text">Film de : David Gordon Green.<br> Genre : Epouvante-horreur, Thriller.<br> Durée du film : 1h49.<br> Date de sortie : 19 Octobre 2018.<br> Heure de la séance : 22 h 30. </p>
-					</div>
-					<div class="card-footer">
-						<a href="" class="btn btn-primary">Voir la fiche</a>
-					</div>
-				</article>
+				</form>
+				<img src="images/popcorn.png" alt="" class="image-2">
 			</div>
-			</section>
-
-
-
-		<!-- Footer -->
-		<footer>
-			<!--Formulaire de contact-->
-			<div class="wrapper">
-				<div class="inner">
-					<img src="images/film.jpg" alt="" class="image-1">
-					<form action="">
-						<h3>Contactez nous</h3>
-						<div class="form-holder">
-							<span class="lnr lnr-user"></span>
-							<input type="text" class="form-control" placeholder="Nom Prénom">
-						</div>
-						<div class="form-holder">
-							<span class="lnr lnr-envelope"></span>
-							<input type="text" class="form-control" placeholder="Email">
-						</div>
-						<div class="form-holder">
-							<span class="lnr lnr-phone-handset"></span>
-							<input type="text" class="form-control" placeholder="Votre message ici">
-						</div>
-						<div class="button">
-							<button type="submit">Envoyer le message</button>
-						</div>
-					</form>
-					<img src="images/popcorn.jpg" alt="" class="image-2">
-				</div>
-			</div>
-		</footer>
-
-	</body>
+		</div>
+	</footer>
+	
+</body>
 
 </html>

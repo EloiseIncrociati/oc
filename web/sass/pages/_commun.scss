@@ -15,10 +15,17 @@
 }
 
 body {
-  background-color: white;
+  background-color: #32363f;
   /*#b78fa7 ou #faf4ba */
 }
 
 .container {
   max-width: 1500px;
+}
+
+.btn{
+  background-color: $btn-color;
+  border-color: $btn-border;
+  font-family: "Girassol-Regular";
+  font-size: 20px;
 }

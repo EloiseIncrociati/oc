@@ -1,5 +1,6 @@
   #description article{
-    background-color: #E4E3E3;
+    background-color: $background-lighter;
+    color: $text-cream;
     margin-right: 80px;
     border-radius: 15px;
   }
@@ -19,4 +20,9 @@
 
   .card-footer{
     text-align: center;
+  }
+
+  .card-img-top{
+    padding-top: 10px; 
+    height: 580px;
   }
