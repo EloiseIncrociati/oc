@@ -5,6 +5,11 @@
     border-radius: 15px;
   }
 
+  .association{
+    padding: 15px;
+    text-align: justify;
+  }
+
   #films article{
     display: flex;
     justify-content: space-around;
@@ -20,6 +25,7 @@
 
   .card-footer{
     text-align: center;
+    background-color: white;
   }
 
   .card-img-top{

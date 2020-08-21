@@ -1,0 +1,26 @@
+.btn-search{
+    background-color: $btn-color;
+    border-color: $btn-border;
+  }
+
+  #banniere .btn {
+    text-align: center;
+  }
+
+
+.btn{
+    background-color: $btn-color;
+    border-color: $btn-border;
+    font-family: $secondary-police;
+    font-size: 20px;
+  }
+
+  .btn-primary:hover{
+      background-color: $btn-border;
+      border-color: $btn-color;
+  }
+
+  #sendResaButton{
+    text-align: center;
+    margin-bottom: 10px;
+  }

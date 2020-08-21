@@ -42,3 +42,51 @@ h1, h2, h3{
   margin-bottom: 25px;
   color: $text-cream;
 }
+
+/*
+ 
+ ########  ########  ######  ######## ########  ##     ##    ###    ######## ####  #######  ##    ## 
+ ##     ## ##       ##    ## ##       ##     ## ##     ##   ## ##      ##     ##  ##     ## ###   ## 
+ ##     ## ##       ##       ##       ##     ## ##     ##  ##   ##     ##     ##  ##     ## ####  ## 
+ ########  ######    ######  ######   ########  ##     ## ##     ##    ##     ##  ##     ## ## ## ## 
+ ##   ##   ##             ## ##       ##   ##    ##   ##  #########    ##     ##  ##     ## ##  #### 
+ ##    ##  ##       ##    ## ##       ##    ##    ## ##   ##     ##    ##     ##  ##     ## ##   ### 
+ ##     ## ########  ######  ######## ##     ##    ###    ##     ##    ##    ####  #######  ##    ## 
+ 
+*/
+
+#reservation{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: $text-cream;
+}
+
+.section-heading{
+  margin-bottom: 25px;
+}
+
+#resaForm{
+  background-color: $navbar-background;
+  border-radius: 15px;
+  color: $text-cream;
+}
+
+.infos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner {
+  position: relative;
+  width: 400px; 
+}
+
+.image-1 {
+  size: 300px;
+  position: absolute;
+  bottom: -140px;
+  left: -270px;
+  z-index: 99; 
+}
+
+
