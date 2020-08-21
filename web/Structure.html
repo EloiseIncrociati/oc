@@ -7,7 +7,7 @@
 
 </head>
 <body>
-
+<!-- Erreur Bouton collapse responsive -->
 <header class="col-md-12 col-sm-12 fixed-top" style="background-color: #32363f;">
     <nav class="navbar navbar-expand-lg navbar-expand-xs">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -27,6 +27,7 @@
     </nav>
 </header>
 
+<!-- OK -->
 <section id="banniere" class="banniere">
     <div class="col-md-12 banner_desc"  style="background-color: #7abaff;">
         <h1 class="text-center text-white">Les Films de Plein Air</h1>
@@ -48,17 +49,22 @@
                         Actualités
                     </article>
                 </div>
+                <!-- Cacher le Aside en responsive ou le mettre à la ligne -->
                 <aside class="col-md-4" style="background-color: #1c7430;">
                     ASIDE
                 </aside>
             </div>
         </section>
 
-        <section id="s3">
+        <!-- afficher un seul film pour la version mobile responsive -->
+        <section id="s3" style="background-color: #6f42c1;">
             <div class="row justify-content-center">
                 <h2 style="text-align: center;">Films Section 2</h2>
             </div>
-            <div class="row" style="max-height: 250px;">
+            <div class="row justify-content-center">
+                <h3 style="text-align: center;">Date1</h3>
+            </div>
+            <div class="d-flex flex-row row" style="max-height: auto;">
                 <div class="col-md-4 ">
                     <article class="card h-100">
                         <img class="card-img-top"
@@ -126,9 +132,46 @@
                 </div>
             </div>
         </section>
-
+        <!-- OK -->
+        <section id="s4" style="background-color: #86cfda;">
+            <div class="row justify-content-center">
+                <h2 style="text-align: center;">S4</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p>test</p>
+                </div>
+		    </div>
+        </section>
 
     </div>
+
+    <!-- OK -->
+    <footer>
+        <!--Formulaire de contact-->
+        <div id="contact" class="wrapper" style="background-color: #c82333;">
+            <div class="inner">
+                <form action="">
+                    <h3>Contactez nous</h3>
+                    <div class="form-holder">
+                        <span class="lnr lnr-user"></span>
+                        <input type="text" class="form-control" placeholder="Nom Prénom">
+                    </div>
+                    <div class="form-holder">
+                        <span class="lnr lnr-envelope"></span>
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-holder">
+                        <span class="lnr lnr-phone-handset"></span>
+                        <input type="text" class="form-control" placeholder="Votre message ici">
+                    </div>
+                    <div class="button">
+                        <button type="submit">Envoyer le message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
 </div>
 
 </body>
