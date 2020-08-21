@@ -26,10 +26,21 @@ h1, h2, h3{
   padding: 15px;
 }
 
+
+/*
+
+ ########   ##    ##          ####      ####    ######
+ ##         ##    ##          ##  ##  ##  ##   ##    ##
+ ##         ##    ##          ##    ##    ##   ##
+ #######    ##    ##          ##          ##    ######
+ ##         ##    ##          ##          ##         ##
+ ##         ##    ##          ##          ##   ##    ##
+ ##         ##    #########   ##          ##    ######
+
+*/
 #films {
   width: max-content;
   height: max-content;
-  display: flex;
   text-align: center;
   margin-top: 20px;
 }
@@ -41,6 +52,10 @@ h1, h2, h3{
 #films h2{
   margin-bottom: 25px;
   color: $text-cream;
+}
+
+.card-inline{
+  margin-top: 25px;
 }
 
 /*

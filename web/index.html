@@ -5,88 +5,105 @@
 	<title>Les Films de Plein Air</title>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap-->
 	<link rel="stylesheet" href="css/main.css"/> <!--Feuille Css-->
-	
+
 </head>
 <body>
-	
-	<!-- Header col-md-12 -->
-	<header class="col-md-12 fixed-top">
-		<a class="navbar-brand" href="index.html">Les Films de Plein Air</a>
-		<nav class="navbar navbar-fixed-top navigation navbar-expand-lg">
-			<!--Bouton collapse, menu en dropdown lorsque écran réduit-->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive"> <!--Menu-->
-				<ul>
-					<li class="nav-item"><a href="#">Accueil</a></li>
-					<li class="nav-item"><a href="#description">L'Association </a></li>
-					<li class="nav-item"><a href="#reservation">Pré-inscription</a></li>
-					<li class="nav-item"><a href="#films">Programmation</a></li>
-					<li class="nav-item"><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	
-	<!-- Section 1 col-md-12 -->
-	<section id="banniere" class="banniere">
-		<div class="col-md-12 banner_desc">
-			<h1 class="text-center text-white">Les Films de Plein Air</h1>
-			<a href="#films" class="btn btn-primary">Voir la programmation</a>
-		</div>
-	</section> 
-	
-	<div class="container">
-		<!-- Section 2 Description col-md-12-->
-		<section id="description">
-			<div class="row">
-				<div class="col-xs-12 corps">
-					<article class="col-md-8 col-xs-12 article association">
-						<h1>L'Association</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
-						<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
-						<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
-					</article>
-					<!--Recherche / Programmation / Maps-->
-					<aside class="hidden-xs hidden-sm col-md-4 sidebar">
-						<div class="row rechercher widget">
-							<form action="search" method="get" class="form-inline">
-								<div class="input-group">
-									<input type="text" name="search" class="form-control" placeholder="Je cherche...">
-									<span class="input-group-btn">
-										<button type="submit" class="btn btn-secondary btn-search"><span class="fa fa-search"></span> Chercher</button>
-									</span>
-								</div>
-							</form>
-						</div>
-						<div class="row programmation widget">
-							<h3>Programmation :</h3>
-							<ul>
-								<li>Lien film 1</li>
-								<li>Lien film 2</li>
-								<li>Lien film 3</li>
-							</ul>
-						</div>
-						<div class="row localisation widget">
-							<h3>Où sommes-nous ?</h3>
 
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531419943!2d2.3067609514926963!3d48.87968700705893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1596441278926!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
-						</div>
-					</aside>
-				</div>
-			</div>
-		</section>
-		
-		
-		<!-- Section 3 Contenu mis en avant col-md-12-->
-		<section id="films" class="col-md-12">
-			<h2>Les Films de la Semaine</h2>
-		
+<!-- Header col-md-12 -->
+<header class="col-md-12 col-sm-12 fixed-top">
+	<a class="navbar-brand" href="index.html">Les Films de Plein Air</a>
+	<nav class="navbar navbar-expand-lg">
+		<!--Bouton collapse, menu en dropdown lorsque écran réduit-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive"> <!--Menu-->
+			<ul>
+				<li class="nav-item"><a href="#">Accueil</a></li>
+				<li class="nav-item"><a href="#description">L'Association </a></li>
+				<li class="nav-item"><a href="#films">Programmation</a></li>
+				<li class="nav-item"><a href="#reservation">Préinscription</a></li>
+				<li class="nav-item"><a href="#contact">Contact</a></li>
+			</ul>
 		</div>
+	</nav>
+</header>
+
+<!-- Section 1 col-md-12 -->
+<section id="banniere" class="banniere">
+	<div class="col-md-12 banner_desc">
+		<h1 class="text-center text-white">Les Films de Plein Air</h1>
+		<a href="#films" class="btn btn-primary">Voir la programmation</a>
+	</div>
+</section>
+
+<div class="container-fluid">
+	<!-- Section 2 Description col-md-12-->
+	<section id="description" class="description col-md-12">
+		<div class="row">
+			<div class="col-xs-12 corps">
+				<article class="col-md-6 col-xs-12 justify-content-between article association">
+					<h1>L'Association</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla
+						facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis
+						parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus
+						elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim
+						id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat
+						placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat
+						velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non
+						lectus lorem.</p>
+					<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel
+						faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis
+						orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean
+						pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing
+						eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut
+						scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum,
+						libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce
+						nec massa et risus dapibus aliquam vitae nec diam.</p>
+					<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam
+						quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi.
+						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor
+						vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem
+						risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+				</article>
+				<!--Recherche / Programmation / Maps-->
+				<aside class="col-md-4 sidebar">
+					<div class="row préinscription">
+						<div class="btn-inscription justify-content-center">
+							<a href="#reservation" class="btn btn-primary">Se Préinscrire</a>
+						</div>
+					</div>
+					<div class="row programmation widget">
+						<h3>Programmation :</h3>
+						<ul>
+							<li>Date</li>
+							<li>Lien film 2</li>
+							<li>Lien film 3</li>
+						</ul>
+					</div>
+					<div class="row localisation widget">
+						<h3>Où sommes-nous ?</h3>
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531419943!2d2.3067609514926963!3d48.87968700705893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1596441278926!5m2!1sfr!2sfr"
+								width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+								aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+
+<!-- Section 3 Contenu mis en avant col-md-12-->
+	<section id="films" class="col-md-12 justify-content-center">
+			<h2>Les Films de la Semaine</h2>
+	<div class="film-container col-lg-12 col-md-12">
 		<div class="row card-inline">
-			<article class="col-md-3 card">
-				<img class="card-img-top" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJ6eMiGWun62Dz5fW-v0b7r8EO2Pj9Qm7asYfGV5NBanmazo2b" alt="film 1">
+			<article class="col-md-3 col-sm-12 card">
+				<img class="card-img-top"
+					 src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJ6eMiGWun62Dz5fW-v0b7r8EO2Pj9Qm7asYfGV5NBanmazo2b"
+					 alt="film 1">
 				<div class="card-body">
 					<h4 class="card-title">La Famille Adams</h4>
 					<ul class="card-text">
@@ -98,27 +115,34 @@
 					</ul>
 				</div>
 				<div class="card-footer">
-					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=179227.html" class="btn btn-primary">Voir la fiche</a>
+					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=179227.html" class="btn btn-primary">Voir
+						la
+						fiche</a>
 				</div>
 			</article>
 			<article class="col-md-3 card">
-				<img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/91wc7yc2R8L._AC_SL1500_.jpg" alt="film2">
+				<img class="card-img-top"
+					 src="https://images-na.ssl-images-amazon.com/images/I/91wc7yc2R8L._AC_SL1500_.jpg"
+					 alt="film2">
 				<div class="card-body">
 					<h4 class="card-title">John Wick 3</h4>
 					<ul class="card-text">
-						<li>Film de :  Chad Stahelski.</li>
+						<li>Film de : Chad Stahelski.</li>
 						<li>Genre : Action.</li>
 						<li>Durée du film : 2h12.</li>
-						<li>Date de sortie : 22 Mai 2019.</li> 
+						<li>Date de sortie : 22 Mai 2019.</li>
 						<li>Heure de la séance : 20 h 00.</li>
 					</ul>
 				</div>
 				<div class="card-footer">
-					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=250861.html" class="btn btn-primary">Voir la fiche</a>
+					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=250861.html" class="btn btn-primary">Voir
+						la
+						fiche</a>
 				</div>
-			</article>					
+			</article>
 			<article class="col-md-3 card">
-				<img class="card-img-top" src="https://fr.web.img5.acsta.net/pictures/18/09/19/14/32/4251359.jpg" alt="film3">
+				<img class="card-img-top" src="https://fr.web.img5.acsta.net/pictures/18/09/19/14/32/4251359.jpg"
+					 alt="film3">
 				<div class="card-body">
 					<h4 class="card-title">Halloween</h4>
 					<ul class="card-text">
@@ -126,16 +150,173 @@
 						<li>Genre : Epouvante-horreur, Thriller.</li>
 						<li>Durée du film : 1h49.</li>
 						<li>Date de sortie : 19 Octobre 2018.</li>
-						<li>Heure de la séance : 22 h 30. </li>
+						<li>Heure de la séance : 22 h 30.</li>
 					</ul>
 				</div>
 				<div class="card-footer">
-					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=238622.html" class="btn btn-primary">Voir la fiche</a>
+					<a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=238622.html" class="btn btn-primary">Voir
+						la
+						fiche</a>
 				</div>
 			</article>
 		</div>
-	</section>
-	
+		<div class="row card-inline">
+			<article class="col-md-3 card">
+				<img class="card-img-top"
+					 src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJ6eMiGWun62Dz5fW-v0b7r8EO2Pj9Qm7asYfGV5NBanmazo2b"
+					 alt="film 4">
+				<div class="card-body">
+					<h4 class="card-title">La Reine des Neiges</h4>
+					<ul class="card-text">
+						<li>Film de Chris Buck, Jennifer Lee.</li>
+						<li>Genre : Film d'Animation.</li>
+						<li>Durée du film : 1h 42min.</li>
+						<li>Date de sortie : 20 Novembre 2013.</li>
+						<li>Heure de la séance : 18 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film5">
+				<div class="card-body">
+					<h4 class="card-title">Kingsman</h4>
+					<ul class="card-text">
+						<li>Film de : Matthew Vaughn.</li>
+						<li>Genre : Action, Espionnage.</li>
+						<li>Durée du film : 2h09.</li>
+						<li>Date de sortie : 18 Février 2015.</li>
+						<li>Heure de la séance : 20 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film6">
+				<div class="card-body">
+					<h4 class="card-title">Shining</h4>
+					<ul class="card-text">
+						<li>Film de : Stanley Kubrick.</li>
+						<li>Genre : Epouvante-horreur, Thriller.</li>
+						<li>Durée du film : 2h23.</li>
+						<li>Date de sortie : 16 octobre 1980.</li>
+						<li>Heure de la séance : 22 h 30.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+		</div>
+
+		<div class="row card-inline">
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film7">
+				<div class="card-body">
+					<h4 class="card-title">Les Mondes de Ralph</h4>
+					<ul class="card-text">
+						<li>Film de Rich Moore.</li>
+						<li>Genre : Film d'Animation.</li>
+						<li>Durée du film : 1h 48min.</li>
+						<li>Date de sortie : 21 Novembre 2012.</li>
+						<li>Heure de la séance : 18 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film8">
+				<div class="card-body">
+					<h4 class="card-title">Valérian et la cité des mille planètes</h4>
+					<ul class="card-text">
+						<li>Film de : Luc Besson.</li>
+						<li>Genre : Science fiction, Aventure.</li>
+						<li>Durée du film : 2h17.</li>
+						<li>Date de sortie : 26 Juillet 2017.</li>
+						<li>Heure de la séance : 20 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film9">
+				<div class="card-body">
+					<h4 class="card-title">Ready Player One</h4>
+					<ul class="card-text">
+						<li>Film de : Steven Spielberg.</li>
+						<li>Genre : Science fiction, Action.</li>
+						<li>Durée du film : 2h20.</li>
+						<li>Date de sortie : 26 Mars 2018.</li>
+						<li>Heure de la séance : 22 h 30.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+		</div>
+
+		<div class="row card-inline">
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film10">
+				<div class="card-body">
+					<h4 class="card-title">Là-haut</h4>
+					<ul class="card-text">
+						<li>Film de Pete Docter, Bob Peterson.</li>
+						<li>Genre : Film d'Animation.</li>
+						<li>Durée du film : 1h 35min.</li>
+						<li>Date de sortie : 29 Juillet 2009.</li>
+						<li>Heure de la séance : 18 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film11">
+				<div class="card-body">
+					<h4 class="card-title">La La Land</h4>
+					<ul class="card-text">
+						<li>Film de : Damien Chazelle.</li>
+						<li>Genre : Comédie musicale, Romance.</li>
+						<li>Durée du film : 2h08.</li>
+						<li>Date de sortie : 25 Janvier 2017.</li>
+						<li>Heure de la séance : 20 h 00.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+			<article class="col-md-3 card">
+				<img class="card-img-top" src="" alt="film12">
+				<div class="card-body">
+					<h4 class="card-title">Shutter Island</h4>
+					<ul class="card-text">
+						<li>Film de : Martin Scorsese.</li>
+						<li>Genre : Science fiction, Action.</li>
+						<li>Durée du film : 2h17.</li>
+						<li>Date de sortie : 24 Février 2010.</li>
+						<li>Heure de la séance : 22 h 30.</li>
+					</ul>
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-primary">Voir la fiche</a>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
 	<!--Section Réservation-->
 	<section id="reservation">
 		<div class="wrapper">
@@ -151,62 +332,62 @@
 						<span class="lnr lnr-envelope"></span>
 						<input type="text" class="form-control" placeholder="Email">
 					</div>
-						<div class="form-group form-holder col-md-8 offset-md-2 text-center">
-								<label for="selection">Choix de la séance</label>
-								<select class="form-control form-control-lg" id="selection">
-									<option>5 août 2018 à 18h / La Famille Adams</option>
-									<option>5 août 2018 à 20h / John Wick</option>
-									<option>5 août 2018 à 22h30 / Halloween</option>
-									<option>6 août 2018 à 18h / La reine des Neiges</option>
-									<option>6 août 2018 à 20h / Kingsman</option>
-									<option>6 août 2018 à 22h30 / Shutter Island</option>
-									<option>7 août 2018 à 18h / Les Mondes de Ralph</option>
-									<option>7 août 2018 à 20h / Valérian et la Cité des mille planètes</option>
-									<option>7 août 2018 à 22h30 / Ready Player One</option>
-									<option>8 août 2018 à 18h / Là-Haut</option>
-									<option>8 août 2018 à 20h / La La Land</option>
-									<option>8 août 2018 à 22h30 / The Equalizer</option>
-								</select>
-							</div>
+					<div class="form-group form-holder col-md-8 offset-md-2 text-center">
+						<label for="selection">Choix de la séance</label>
+						<select class="form-control form-control-lg" id="selection">
+							<option>5 août 2018 à 18h / La Famille Adams</option>
+							<option>5 août 2018 à 20h / John Wick</option>
+							<option>5 août 2018 à 22h30 / Halloween</option>
+							<option>6 août 2018 à 18h / La reine des Neiges</option>
+							<option>6 août 2018 à 20h / Kingsman</option>
+							<option>6 août 2018 à 22h30 / Shining</option>
+							<option>7 août 2018 à 18h / Les Mondes de Ralph</option>
+							<option>7 août 2018 à 20h / Valérian et la Cité des mille planètes</option>
+							<option>7 août 2018 à 22h30 / Ready Player One</option>
+							<option>8 août 2018 à 18h / Là-Haut</option>
+							<option>8 août 2018 à 20h / La La Land</option>
+							<option>8 août 2018 à 22h30 / Shutter Island</option>
+						</select>
+					</div>
 					<div class="button">
-						<button type="submit">Se Pré-Inscrire</button>
+						<button type="submit">Se Préinscrire</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</section>
-	
-	<!-- Footer -->
-	<footer>
-		<!--Formulaire de contact-->
-		<div id="contact" class="wrapper">
-			<div class="inner">
-				<img src="images/film.png" alt="" class="image-3">
-				<form action="">
-					<h3>Contactez nous</h3>
-					<div class="form-holder">
-						<span class="lnr lnr-user"></span>
-						<input type="text" class="form-control" placeholder="Nom Prénom">
-					</div>
-					<div class="form-holder">
-						<span class="lnr lnr-envelope"></span>
-						<input type="text" class="form-control" placeholder="Email">
-					</div>
-					<div class="form-holder">
-						<span class="lnr lnr-phone-handset"></span>
-						<input type="text" class="form-control" placeholder="Votre message ici">
-					</div>
-					<div class="button">
-						<button type="submit">Envoyer le message</button>
-					</div>
-				</form>
-				<img src="images/popcorn.png" alt="" class="image-4">
-			</div>
+</div>
+<!-- Footer -->
+<footer>
+	<!--Formulaire de contact-->
+	<div id="contact" class="wrapper">
+		<div class="inner">
+			<img src="images/film.png" alt="" class="image-3">
+			<form action="">
+				<h3>Contactez nous</h3>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<input type="text" class="form-control" placeholder="Nom Prénom">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-envelope"></span>
+					<input type="text" class="form-control" placeholder="Email">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-phone-handset"></span>
+					<input type="text" class="form-control" placeholder="Votre message ici">
+				</div>
+				<div class="button">
+					<button type="submit">Envoyer le message</button>
+				</div>
+			</form>
+			<img src="images/popcorn.png" alt="" class="image-4">
 		</div>
-	</footer>
-	<!-- jQuery first, then Bootstrap JS -->
-	<script src="bootstrap/js/jquery-3.3.1.js"></script>
-	<script src="bootstrap/js/bootstrap.js"></script>
+	</div>
+</footer>
+<!-- jQuery first, then Bootstrap JS -->
+<script src="bootstrap/js/jquery-3.3.1.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
 
 </body>
 
