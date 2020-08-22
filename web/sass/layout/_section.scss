@@ -54,6 +54,12 @@ h1, h2, h3{
   color: $text-cream;
 }
 
+.film h3{
+  text-align: center;
+  color: $text-cream;
+  margin: 25px;
+}
+
 .card-inline{
   margin-top: 25px;
 }
@@ -104,4 +110,12 @@ h1, h2, h3{
   z-index: 99; 
 }
 
+#reservation .wrapper{
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+}
 
+#reservation form{
+  border-radius: 15px;
+}

@@ -1,7 +1,16 @@
-  #description article{
+article h1{
+  color: #32363f;
+  margin-top: 20px;
+}
+
+article h2{
+  color: #f8f8f8;
+  margin: 20px 0px;
+}
+
+#description article{
     background-color: $background-lighter;
     color: $text-cream;
-    margin-right: 80px;
     border-radius: 15px;
   }
 
@@ -10,25 +19,9 @@
     text-align: justify;
   }
 
-  #films article{
-    display: flex;
-    justify-content: space-around;
-  }  
-  
-  .card-inline{
-    justify-content: space-around;
-  }
 
-  #films article{
-    margin-left: 150px;
-  }
 
   .card-footer{
     text-align: center;
     background-color: white;
-  }
-
-  .card-img-top{
-    padding-top: 10px; 
-    height: 580px;
   }
