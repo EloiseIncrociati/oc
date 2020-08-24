@@ -25,7 +25,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $background-lighter; 
+  background: $color-lighter;
 }
 
 .inner {
@@ -62,7 +62,7 @@ a {
 .wrapper form h3 {
   text-transform: uppercase;
   font-size: 25px;
-  font-family: "Girassol-Regular";
+  font-family: $primary-police;
   color: #333;
   letter-spacing: 3px;
   text-align: center;
@@ -96,40 +96,40 @@ a {
   background: none;
   padding: 3px 42px 0px;
   color: #666;
-  font-family: "Muli-SemiBold";
+  font-family:$secondary-police;
   font-size: 16px; 
 }
 
 .form-control::-webkit-input-placeholder {
   font-size: 14px;
-  font-family: "Muli-Regular";
+  font-family:$secondary-police;
   color: #999;
   transform: translateY(1px); 
 }
 
 .form-control::-moz-placeholder {
   font-size: 14px;
-  font-family: "Muli-Regular";
+  font-family:$secondary-police;
   color: #999;
   transform: translateY(1px); 
 }
 
 .form-control:-ms-input-placeholder {
   font-size: 14px;
-  font-family: "Muli-Regular";
+  font-family:$secondary-police;
   color: #999;
   transform: translateY(1px); 
 }
 
 .form-control:-moz-placeholder {
   font-size: 14px;
-  font-family: "Muli-Regular";
+  font-family:$secondary-police;
   color: #999;
   transform: translateY(1px); 
 }
 
 .form-control:focus {
-  border-bottom: 1px solid $btn-color; 
+  border-bottom: 1px solid $btn-red;
 }
 
 form button {
@@ -142,10 +142,10 @@ form button {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: $btn-color;
+  background: $btn-red;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Girassol-Regular";
+  font-family: $primary-police;
   font-size: 20px;
   letter-spacing: 2px;
   position: relative;
@@ -158,8 +158,8 @@ button span {
 }
 
 button:hover{
-  background-color: $btn-border;
-  border-color: $btn-color;
+  background-color: $btn-clear;
+  border-color: $btn-red;
 }
 
 @media (max-width: 991px) {

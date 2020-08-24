@@ -8,7 +8,8 @@
  ##     ## ##       ##    ## ##    ## ##    ##   ##  ##           ##     ##  ##       
  ########  ########  ######   ######  ##     ## #### ##           ##    #### ##       
 
-*/
+
+ */
     
 section{
   font-family: $secondary-police;
@@ -37,31 +38,21 @@ h1, h2, h3{
  ##         ##    ##          ##          ##   ##    ##
  ##         ##    #########   ##          ##    ######
 
-*/
-#films {
-  width: max-content;
-  height: max-content;
-  text-align: center;
-  margin-top: 20px;
-}
 
-#films row{
-  height: 100%;
-}
+ */
 
-#films h2{
+.cartefilm{
   margin-bottom: 25px;
-  color: $text-cream;
 }
 
-.film h3{
-  text-align: center;
-  color: $text-cream;
-  margin: 25px;
+.card-footer{
+  background-color: white;
 }
 
-.card-inline{
-  margin-top: 25px;
+#films h1{
+  background-color: $color-darker;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 /*
@@ -74,7 +65,8 @@ h1, h2, h3{
  ##    ##  ##       ##    ## ##       ##    ##    ## ##   ##     ##    ##     ##  ##     ## ##   ### 
  ##     ## ########  ######  ######## ##     ##    ###    ##     ##    ##    ####  #######  ##    ## 
  
-*/
+
+ */
 
 #reservation{
   margin-top: 50px;
@@ -87,7 +79,7 @@ h1, h2, h3{
 }
 
 #resaForm{
-  background-color: $navbar-background;
+  background-color: $color-darker;
   border-radius: 15px;
   color: $text-cream;
 }

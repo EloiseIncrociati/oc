@@ -1,23 +1,23 @@
+//Style des Boutons
 .btn-search{
-    background-color: $btn-color;
-    border-color: $btn-color;
+    background-color: $btn-red;
+    border-color: $btn-red;
   }
 
   #banniere .btn {
     text-align: center;
   }
 
-
 .btn{
-    background-color: $btn-color;
-    border-color: $btn-color;
+    background-color: $btn-red;
+    border-color: $btn-red;
     font-family: $secondary-police;
     font-size: 20px;
   }
 
   .btn-primary:hover{
-      background-color: $btn-border;
-      border-color: $btn-color;
+      background-color: $btn-clear;
+      border-color: $btn-red;
   }
 
   #sendResaButton{
