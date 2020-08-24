@@ -11,8 +11,8 @@
 .btn{
     background-color: $btn-red;
     border-color: $btn-red;
-    font-family: $secondary-police;
-    font-size: 20px;
+    font-family: $primary-police;
+    font-size: 25px;
   }
 
   .btn-primary:hover{
@@ -23,4 +23,12 @@
   #sendResaButton{
     text-align: center;
     margin-bottom: 10px;
+  }
+
+  .modal-resa button, .btn-inscription{
+    font-size: 25px;
+  }
+
+  #films button{
+    font-family: $primary-police;
   }

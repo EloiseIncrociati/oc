@@ -39,6 +39,7 @@ header {
 
   .navbar{
     background-color: $color-lighter;
+    box-shadow: 0px 10px 10px $color-darker;
   }
 
   #filmspleinair{
@@ -84,10 +85,6 @@ nav ul {
   .navbar-toggler-icon{
     color: $color-darker;
   }
-
-.mdsizeheader{
-  margin-right: 670px;
-}
 
 .navbar-light .navbar-brand {
   color: rgba(255, 255, 255, 0.9);

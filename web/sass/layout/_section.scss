@@ -49,8 +49,12 @@ h1, h2, h3{
   background-color: white;
 }
 
+.modal-footer{
+  margin: auto;
+}
+
 #films h1{
-  background-color: $color-darker;
+  background-color: $color-lighter;
   border-radius: 15px;
   padding: 20px;
 }
