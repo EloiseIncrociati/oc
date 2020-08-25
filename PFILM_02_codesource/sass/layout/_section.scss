@@ -115,3 +115,12 @@ h1, h2, h3{
 #reservation form{
   border-radius: 15px;
 }
+
+.modal-backdrop{
+  z-index: 0;
+}
+
+.modal-content{
+  margin-top: 250px;
+  color: $color-darker;
+}
